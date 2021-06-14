@@ -1,7 +1,8 @@
+
 <h2>title</h2>
 <p><%= @book.title %></p>
 <h2>body</h2>
 <p><%= @book.body %></p>
 
-<%= link_to "edit", edit_book_path(@book) %>
-<%= link_to "destroy", book_path(@book), method: :delete %>
+<%= link_to "Edit", edit_book_path(@book) %> |
+<%= link_to "Back", books_path %>
